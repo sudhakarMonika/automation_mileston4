@@ -1,0 +1,44 @@
+
+<suite name="HerokuApp Full Parallel Suite"
+       parallel="tests"
+       thread-count="2">
+
+    <listeners>
+        <listener class-name="herokuapp.milestorefour.listeners.MyTestListener"/>
+    </listeners>
+
+    <!-- ================= CHROME ================= -->
+    <test name="Chrome Parallel Tests" parallel="classes" thread-count="5">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="herokuapp.milestorefour.pagestest.ABTestingTest"/>
+            <class name="herokuapp.milestorefour.pagestest.AddRemoveElementsTest"/>
+            <class name="herokuapp.milestorefour.pagestest.BasicAuthTest"/>
+            <class name="herokuapp.milestorefour.pagestest.BrokenImagesTest"/>
+            <class name="herokuapp.milestorefour.pagestest.ChallengingDOMTest"/>
+            <class name="herokuapp.milestorefour.pagestest.CheckboxesTest"/>
+            <class name="herokuapp.milestorefour.pagestest.DigestAuthTest"/>
+            <class name="herokuapp.milestorefour.pagestest.DisappearingElementsTest"/>
+            <class name="herokuapp.milestorefour.pagestest.ContextMenuTest"/>
+            <class name="herokuapp.milestorefour.pagestest.DragAndDropTest"/>
+        </classes>
+    </test>
+
+    <!-- ================= FIREFOX ================= -->
+    <test name="Firefox Parallel Tests" parallel="classes" thread-count="5">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="herokuapp.milestorefour.pagestest.ABTestingTest"/>
+            <class name="herokuapp.milestorefour.pagestest.AddRemoveElementsTest"/>
+            <class name="herokuapp.milestorefour.pagestest.BasicAuthTest"/>
+            <class name="herokuapp.milestorefour.pagestest.BrokenImagesTest"/>
+            <class name="herokuapp.milestorefour.pagestest.ChallengingDOMTest"/>
+            <class name="herokuapp.milestorefour.pagestest.CheckboxesTest"/>
+            <class name="herokuapp.milestorefour.pagestest.DigestAuthTest"/>
+            <class name="herokuapp.milestorefour.pagestest.DisappearingElementsTest"/>
+            <class name="herokuapp.milestorefour.pagestest.ContextMenuTest"/>
+            <class name="herokuapp.milestorefour.pagestest.DragAndDropTest"/>
+        </classes>
+    </test>
+
+</suite>

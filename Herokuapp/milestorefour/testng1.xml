@@ -1,0 +1,17 @@
+
+<suite name="Suite">
+    <listeners>
+        <listener class-name="herokuapp.milestorefour.listeners.MyTestListener"/>
+    </listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <parameter name="browser" value="chrome"/>
+      <class name="herokuapp.milestorefour.pagestest.ABTestingTest"/>
+            <class name="herokuapp.milestorefour.pagestest.ABTestingTest"/>
+            <class name="herokuapp.milestorefour.pagestest.AddRemoveElementsTest"/>
+            <class name="herokuapp.milestorefour.pagestest.BasicAuthTest"/>
+            <class name="herokuapp.milestorefour.pagestest.BrokenImagesTest"/>
+            <class name="herokuapp.milestorefour.pagestest.ChallengingDOMTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

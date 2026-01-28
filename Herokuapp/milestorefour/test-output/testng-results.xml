@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-27T19:37:18 IST" name="Suite" finished-at="2026-01-27T19:40:43 IST" duration-ms="205635">
+    <groups>
+    </groups>
+    <test started-at="2026-01-27T19:37:18 IST" name="Test" finished-at="2026-01-27T19:40:43 IST" duration-ms="205635">
+      <class name="herokuapp.milestorefour.pagestest.AddRemoveElementsTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:herokuapp.milestorefour.pagestest.AddRemoveElementsTest@2c1b194a]" started-at="2026-01-27T19:37:59 IST" name="beforeClass" finished-at="2026-01-27T19:37:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:herokuapp.milestorefour.pagestest.AddRemoveElementsTest@2c1b194a]" started-at="2026-01-27T19:37:59 IST" name="beforeMethod" finished-at="2026-01-27T19:38:14 IST" duration-ms="15772" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyAddRemovePageTitle()[pri:1, instance:herokuapp.milestorefour.pagestest.AddRemoveElementsTest@2c1b194a]" started-at="2026-01-27T19:38:14 IST" name="verifyAddRemovePageTitle" finished-at="2026-01-27T19:38:15 IST" duration-ms="619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddRemovePageTitle -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:herokuapp.milestorefour.pagestest.AddRemoveElementsTest@2c1b194a]" started-at="2026-01-27T19:38:15 IST" name="afterMethod" finished-at="2026-01-27T19:38:16 IST" duration-ms="631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:herokuapp.milestorefour.pagestest.AddRemoveElementsTest@2c1b194a]" started-at="2026-01-27T19:38:16 IST" name="beforeMethod" finished-at="2026-01-27T19:38:25 IST" duration-ms="8891" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyAddRemovePageUrl()[pri:2, instance:herokuapp.milestorefour.pagestest.AddRemoveElementsTest@2c1b194a]" started-at="2026-01-27T19:38:25 IST" name="verifyAddRemovePageUrl" finished-at="2026-01-27T19:38:25 IST" duration-ms="574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddRemovePageUrl -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:herokuapp.milestorefour.pagestest.AddRemoveElementsTest@2c1b194a]" started-at="2026-01-27T19:38:25 IST" name="afterMethod" finished-at="2026-01-27T19:38:26 IST" duration-ms="511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:herokuapp.milestorefour.pagestest.AddRemoveElementsTest@2c1b194a]" started-at="2026-01-27T19:38:26 IST" name="beforeMethod" finished-at="2026-01-27T19:38:35 IST" duration-ms="9420" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyAddElementFunctionality()[pri:3, instance:herokuapp.milestorefour.pagestest.AddRemoveElementsTest@2c1b194a]" started-at="2026-01-27T19:38:35 IST" name="verifyAddElementFunctionality" finished-at="2026-01-27T19:38:36 IST" duration-ms="781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddElementFunctionality -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:herokuapp.milestorefour.pagestest.AddRemoveElementsTest@2c1b194a]" started-at="2026-01-27T19:38:36 IST" name="afterMethod" finished-at="2026-01-27T19:38:36 IST" duration-ms="469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:herokuapp.milestorefour.pagestest.AddRemoveElementsTest@2c1b194a]" started-at="2026-01-27T19:38:36 IST" name="beforeMethod" finished-at="2026-01-27T19:38:46 IST" duration-ms="9341" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyDeleteElementFunctionality()[pri:4, instance:herokuapp.milestorefour.pagestest.AddRemoveElementsTest@2c1b194a]" started-at="2026-01-27T19:38:46 IST" name="verifyDeleteElementFunctionality" finished-at="2026-01-27T19:38:47 IST" duration-ms="854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeleteElementFunctionality -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:herokuapp.milestorefour.pagestest.AddRemoveElementsTest@2c1b194a]" started-at="2026-01-27T19:38:47 IST" name="afterMethod" finished-at="2026-01-27T19:38:47 IST" duration-ms="494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:herokuapp.milestorefour.pagestest.AddRemoveElementsTest@2c1b194a]" started-at="2026-01-27T19:38:47 IST" name="afterClass" finished-at="2026-01-27T19:38:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- herokuapp.milestorefour.pagestest.AddRemoveElementsTest -->
+      <class name="herokuapp.milestorefour.pagestest.ABTestingTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:herokuapp.milestorefour.pagestest.ABTestingTest@3e11f9e9]" started-at="2026-01-27T19:37:18 IST" name="beforeClass" finished-at="2026-01-27T19:37:18 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:herokuapp.milestorefour.pagestest.ABTestingTest@3e11f9e9]" started-at="2026-01-27T19:37:18 IST" name="beforeMethod" finished-at="2026-01-27T19:37:28 IST" duration-ms="9934" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyABTestPageTitle()[pri:1, instance:herokuapp.milestorefour.pagestest.ABTestingTest@3e11f9e9]" started-at="2026-01-27T19:37:28 IST" name="verifyABTestPageTitle" finished-at="2026-01-27T19:37:28 IST" duration-ms="607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyABTestPageTitle -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:herokuapp.milestorefour.pagestest.ABTestingTest@3e11f9e9]" started-at="2026-01-27T19:37:28 IST" name="afterMethod" finished-at="2026-01-27T19:37:29 IST" duration-ms="547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:herokuapp.milestorefour.pagestest.ABTestingTest@3e11f9e9]" started-at="2026-01-27T19:37:29 IST" name="beforeMethod" finished-at="2026-01-27T19:37:41 IST" duration-ms="12267" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyABTestHeader()[pri:2, instance:herokuapp.milestorefour.pagestest.ABTestingTest@3e11f9e9]" started-at="2026-01-27T19:37:41 IST" name="verifyABTestHeader" finished-at="2026-01-27T19:37:42 IST" duration-ms="599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyABTestHeader -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:herokuapp.milestorefour.pagestest.ABTestingTest@3e11f9e9]" started-at="2026-01-27T19:37:42 IST" name="afterMethod" finished-at="2026-01-27T19:37:42 IST" duration-ms="465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:herokuapp.milestorefour.pagestest.ABTestingTest@3e11f9e9]" started-at="2026-01-27T19:37:42 IST" name="beforeMethod" finished-at="2026-01-27T19:37:45 IST" duration-ms="2650" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyABTestLink()[pri:3, instance:herokuapp.milestorefour.pagestest.ABTestingTest@3e11f9e9]" started-at="2026-01-27T19:37:45 IST" name="verifyABTestLink" finished-at="2026-01-27T19:37:48 IST" duration-ms="2714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyABTestLink -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:herokuapp.milestorefour.pagestest.ABTestingTest@3e11f9e9]" started-at="2026-01-27T19:37:48 IST" name="afterMethod" finished-at="2026-01-27T19:37:48 IST" duration-ms="589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:herokuapp.milestorefour.pagestest.ABTestingTest@3e11f9e9]" started-at="2026-01-27T19:37:48 IST" name="beforeMethod" finished-at="2026-01-27T19:37:57 IST" duration-ms="9072" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyABTestContent()[pri:4, instance:herokuapp.milestorefour.pagestest.ABTestingTest@3e11f9e9]" started-at="2026-01-27T19:37:57 IST" name="verifyABTestContent" finished-at="2026-01-27T19:37:58 IST" duration-ms="652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyABTestContent -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:herokuapp.milestorefour.pagestest.ABTestingTest@3e11f9e9]" started-at="2026-01-27T19:37:58 IST" name="afterMethod" finished-at="2026-01-27T19:37:59 IST" duration-ms="587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:herokuapp.milestorefour.pagestest.ABTestingTest@3e11f9e9]" started-at="2026-01-27T19:37:59 IST" name="afterClass" finished-at="2026-01-27T19:37:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- herokuapp.milestorefour.pagestest.ABTestingTest -->
+      <class name="herokuapp.milestorefour.pagestest.ChallengingDOMTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:herokuapp.milestorefour.pagestest.ChallengingDOMTest@550dbc7a]" started-at="2026-01-27T19:40:05 IST" name="beforeClass" finished-at="2026-01-27T19:40:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:herokuapp.milestorefour.pagestest.ChallengingDOMTest@550dbc7a]" started-at="2026-01-27T19:40:05 IST" name="beforeMethod" finished-at="2026-01-27T19:40:15 IST" duration-ms="10541" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyChallengingDOMPageTitle()[pri:1, instance:herokuapp.milestorefour.pagestest.ChallengingDOMTest@550dbc7a]" started-at="2026-01-27T19:40:15 IST" name="verifyChallengingDOMPageTitle" finished-at="2026-01-27T19:40:16 IST" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyChallengingDOMPageTitle -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:herokuapp.milestorefour.pagestest.ChallengingDOMTest@550dbc7a]" started-at="2026-01-27T19:40:16 IST" name="afterMethod" finished-at="2026-01-27T19:40:16 IST" duration-ms="435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:herokuapp.milestorefour.pagestest.ChallengingDOMTest@550dbc7a]" started-at="2026-01-27T19:40:16 IST" name="beforeMethod" finished-at="2026-01-27T19:40:19 IST" duration-ms="2915" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyChallengingDOMPageUrl()[pri:2, instance:herokuapp.milestorefour.pagestest.ChallengingDOMTest@550dbc7a]" started-at="2026-01-27T19:40:19 IST" name="verifyChallengingDOMPageUrl" finished-at="2026-01-27T19:40:25 IST" duration-ms="5609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyChallengingDOMPageUrl -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:herokuapp.milestorefour.pagestest.ChallengingDOMTest@550dbc7a]" started-at="2026-01-27T19:40:25 IST" name="afterMethod" finished-at="2026-01-27T19:40:25 IST" duration-ms="445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:herokuapp.milestorefour.pagestest.ChallengingDOMTest@550dbc7a]" started-at="2026-01-27T19:40:25 IST" name="beforeMethod" finished-at="2026-01-27T19:40:30 IST" duration-ms="4931" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyButtonsClickable()[pri:3, instance:herokuapp.milestorefour.pagestest.ChallengingDOMTest@550dbc7a]" started-at="2026-01-27T19:40:30 IST" name="verifyButtonsClickable" finished-at="2026-01-27T19:40:32 IST" duration-ms="2070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyButtonsClickable -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:herokuapp.milestorefour.pagestest.ChallengingDOMTest@550dbc7a]" started-at="2026-01-27T19:40:32 IST" name="afterMethod" finished-at="2026-01-27T19:40:33 IST" duration-ms="958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:herokuapp.milestorefour.pagestest.ChallengingDOMTest@550dbc7a]" started-at="2026-01-27T19:40:33 IST" name="beforeMethod" finished-at="2026-01-27T19:40:42 IST" duration-ms="9171" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyTableDataPresent()[pri:4, instance:herokuapp.milestorefour.pagestest.ChallengingDOMTest@550dbc7a]" started-at="2026-01-27T19:40:42 IST" name="verifyTableDataPresent" finished-at="2026-01-27T19:40:43 IST" duration-ms="505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTableDataPresent -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:herokuapp.milestorefour.pagestest.ChallengingDOMTest@550dbc7a]" started-at="2026-01-27T19:40:43 IST" name="afterMethod" finished-at="2026-01-27T19:40:43 IST" duration-ms="596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:herokuapp.milestorefour.pagestest.ChallengingDOMTest@550dbc7a]" started-at="2026-01-27T19:40:43 IST" name="afterClass" finished-at="2026-01-27T19:40:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- herokuapp.milestorefour.pagestest.ChallengingDOMTest -->
+      <class name="herokuapp.milestorefour.pagestest.BrokenImagesTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:herokuapp.milestorefour.pagestest.BrokenImagesTest@66f57048]" started-at="2026-01-27T19:39:27 IST" name="beforeClass" finished-at="2026-01-27T19:39:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:herokuapp.milestorefour.pagestest.BrokenImagesTest@66f57048]" started-at="2026-01-27T19:39:27 IST" name="beforeMethod" finished-at="2026-01-27T19:39:36 IST" duration-ms="9122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyBrokenImagesPageTitle()[pri:1, instance:herokuapp.milestorefour.pagestest.BrokenImagesTest@66f57048]" started-at="2026-01-27T19:39:36 IST" name="verifyBrokenImagesPageTitle" finished-at="2026-01-27T19:39:37 IST" duration-ms="596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBrokenImagesPageTitle -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:herokuapp.milestorefour.pagestest.BrokenImagesTest@66f57048]" started-at="2026-01-27T19:39:37 IST" name="afterMethod" finished-at="2026-01-27T19:39:37 IST" duration-ms="638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:herokuapp.milestorefour.pagestest.BrokenImagesTest@66f57048]" started-at="2026-01-27T19:39:37 IST" name="beforeMethod" finished-at="2026-01-27T19:39:42 IST" duration-ms="5026" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyBrokenImagesPageUrl()[pri:2, instance:herokuapp.milestorefour.pagestest.BrokenImagesTest@66f57048]" started-at="2026-01-27T19:39:42 IST" name="verifyBrokenImagesPageUrl" finished-at="2026-01-27T19:39:43 IST" duration-ms="589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBrokenImagesPageUrl -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:herokuapp.milestorefour.pagestest.BrokenImagesTest@66f57048]" started-at="2026-01-27T19:39:43 IST" name="afterMethod" finished-at="2026-01-27T19:39:43 IST" duration-ms="474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:herokuapp.milestorefour.pagestest.BrokenImagesTest@66f57048]" started-at="2026-01-27T19:39:43 IST" name="beforeMethod" finished-at="2026-01-27T19:39:54 IST" duration-ms="10911" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyImagesPresentOnPage()[pri:3, instance:herokuapp.milestorefour.pagestest.BrokenImagesTest@66f57048]" started-at="2026-01-27T19:39:54 IST" name="verifyImagesPresentOnPage" finished-at="2026-01-27T19:39:55 IST" duration-ms="600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyImagesPresentOnPage -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:herokuapp.milestorefour.pagestest.BrokenImagesTest@66f57048]" started-at="2026-01-27T19:39:55 IST" name="afterMethod" finished-at="2026-01-27T19:39:55 IST" duration-ms="438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:herokuapp.milestorefour.pagestest.BrokenImagesTest@66f57048]" started-at="2026-01-27T19:39:55 IST" name="beforeMethod" finished-at="2026-01-27T19:40:00 IST" duration-ms="4926" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyBrokenImagesCount()[pri:4, instance:herokuapp.milestorefour.pagestest.BrokenImagesTest@66f57048]" started-at="2026-01-27T19:40:00 IST" name="verifyBrokenImagesCount" finished-at="2026-01-27T19:40:04 IST" duration-ms="4163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBrokenImagesCount -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:herokuapp.milestorefour.pagestest.BrokenImagesTest@66f57048]" started-at="2026-01-27T19:40:04 IST" name="afterMethod" finished-at="2026-01-27T19:40:05 IST" duration-ms="435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:herokuapp.milestorefour.pagestest.BrokenImagesTest@66f57048]" started-at="2026-01-27T19:40:05 IST" name="afterClass" finished-at="2026-01-27T19:40:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- herokuapp.milestorefour.pagestest.BrokenImagesTest -->
+      <class name="herokuapp.milestorefour.pagestest.BasicAuthTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:herokuapp.milestorefour.pagestest.BasicAuthTest@4dbb42b7]" started-at="2026-01-27T19:38:47 IST" name="beforeClass" finished-at="2026-01-27T19:38:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:herokuapp.milestorefour.pagestest.BasicAuthTest@4dbb42b7]" started-at="2026-01-27T19:38:47 IST" name="beforeMethod" finished-at="2026-01-27T19:38:50 IST" duration-ms="2857" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyBasicAuthPageTitle()[pri:1, instance:herokuapp.milestorefour.pagestest.BasicAuthTest@4dbb42b7]" started-at="2026-01-27T19:38:50 IST" name="verifyBasicAuthPageTitle" finished-at="2026-01-27T19:38:53 IST" duration-ms="3174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBasicAuthPageTitle -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:herokuapp.milestorefour.pagestest.BasicAuthTest@4dbb42b7]" started-at="2026-01-27T19:38:53 IST" name="afterMethod" finished-at="2026-01-27T19:38:54 IST" duration-ms="451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:herokuapp.milestorefour.pagestest.BasicAuthTest@4dbb42b7]" started-at="2026-01-27T19:38:54 IST" name="beforeMethod" finished-at="2026-01-27T19:39:04 IST" duration-ms="10812" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyBasicAuthUrl()[pri:2, instance:herokuapp.milestorefour.pagestest.BasicAuthTest@4dbb42b7]" started-at="2026-01-27T19:39:04 IST" name="verifyBasicAuthUrl" finished-at="2026-01-27T19:39:05 IST" duration-ms="769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBasicAuthUrl -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:herokuapp.milestorefour.pagestest.BasicAuthTest@4dbb42b7]" started-at="2026-01-27T19:39:05 IST" name="afterMethod" finished-at="2026-01-27T19:39:06 IST" duration-ms="477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:herokuapp.milestorefour.pagestest.BasicAuthTest@4dbb42b7]" started-at="2026-01-27T19:39:06 IST" name="beforeMethod" finished-at="2026-01-27T19:39:15 IST" duration-ms="9535" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyBasicAuthSuccessMessage()[pri:3, instance:herokuapp.milestorefour.pagestest.BasicAuthTest@4dbb42b7]" started-at="2026-01-27T19:39:15 IST" name="verifyBasicAuthSuccessMessage" finished-at="2026-01-27T19:39:16 IST" duration-ms="797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBasicAuthSuccessMessage -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:herokuapp.milestorefour.pagestest.BasicAuthTest@4dbb42b7]" started-at="2026-01-27T19:39:16 IST" name="afterMethod" finished-at="2026-01-27T19:39:16 IST" duration-ms="519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:herokuapp.milestorefour.pagestest.BasicAuthTest@4dbb42b7]" started-at="2026-01-27T19:39:16 IST" name="beforeMethod" finished-at="2026-01-27T19:39:19 IST" duration-ms="2622" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyBasicAuthContentDisplayed()[pri:4, instance:herokuapp.milestorefour.pagestest.BasicAuthTest@4dbb42b7]" started-at="2026-01-27T19:39:19 IST" name="verifyBasicAuthContentDisplayed" finished-at="2026-01-27T19:39:26 IST" duration-ms="7255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBasicAuthContentDisplayed -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:herokuapp.milestorefour.pagestest.BasicAuthTest@4dbb42b7]" started-at="2026-01-27T19:39:26 IST" name="afterMethod" finished-at="2026-01-27T19:39:27 IST" duration-ms="540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:herokuapp.milestorefour.pagestest.BasicAuthTest@4dbb42b7]" started-at="2026-01-27T19:39:27 IST" name="afterClass" finished-at="2026-01-27T19:39:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- herokuapp.milestorefour.pagestest.BasicAuthTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

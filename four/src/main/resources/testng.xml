@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="MilestoneFourSuite">
+
+    <!-- Listener for reporting -->
+    <listeners>
+        <listener class-name="com.milestone.four.listeners.MyTestListener"/>
+    </listeners>
+
+    <test name="MilestoneFourTests">
+        <parameter name="browser" value="chrome"/>
+
+        <classes>
+            <class name="com.milestone.four.pagestest.ABTestingTest"/>
+            <class name="com.milestone.four.pagestest.AddRemoveElementsTest"/>
+            <class name="com.milestone.four.pagestest.BasicAuthTest"/>
+            <class name="com.milestone.four.pagestest.BrokenImagesTest"/>
+            <class name="com.milestone.four.pagestest.ChallengingDOMTest"/>
+        </classes>
+    </test>
+
+</suite>

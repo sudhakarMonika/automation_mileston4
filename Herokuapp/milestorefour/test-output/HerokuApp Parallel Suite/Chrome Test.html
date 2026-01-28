@@ -1,0 +1,270 @@
+<html>
+<head>
+<title>TestNG:  Chrome Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Chrome Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>38/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jan 26 15:41:23 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>467 seconds (467802 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='herokuapp.milestorefour.pagestest.DragAndDropTest.verifyDragAndDropPageTitle()'><b>verifyDragAndDropPageTitle</b><br>Test class: herokuapp.milestorefour.pagestest.DragAndDropTest</td>
+<td></td>
+<td>0</td>
+<td>herokuapp.milestorefour.pagestest.DragAndDropTest@1e178745</td></tr>
+<tr>
+<td title='herokuapp.milestorefour.pagestest.ContextMenuTest.verifyContextMenuAlertText()'><b>verifyContextMenuAlertText</b><br>Test class: herokuapp.milestorefour.pagestest.ContextMenuTest</td>
+<td></td>
+<td>0</td>
+<td>herokuapp.milestorefour.pagestest.ContextMenuTest@1f59a598</td></tr>
+<tr>
+<td title='herokuapp.milestorefour.pagestest.CheckboxesTest.verifyCheckboxesPageUrl()'><b>verifyCheckboxesPageUrl</b><br>Test class: herokuapp.milestorefour.pagestest.CheckboxesTest</td>
+<td></td>
+<td>0</td>
+<td>herokuapp.milestorefour.pagestest.CheckboxesTest@4c39bec8</td></tr>
+<tr>
+<td title='herokuapp.milestorefour.pagestest.ChallengingDOMTest.verifyTableDataPresent()'><b>verifyTableDataPresent</b><br>Test class: herokuapp.milestorefour.pagestest.ChallengingDOMTest</td>
+<td></td>
+<td>0</td>
+<td>herokuapp.milestorefour.pagestest.ChallengingDOMTest@8c3b9d</td></tr>
+<tr>
+<td title='herokuapp.milestorefour.pagestest.ChallengingDOMTest.verifyChallengingDOMPageUrl()'><b>verifyChallengingDOMPageUrl</b><br>Test class: herokuapp.milestorefour.pagestest.ChallengingDOMTest</td>
+<td></td>
+<td>1</td>
+<td>herokuapp.milestorefour.pagestest.ChallengingDOMTest@8c3b9d</td></tr>
+<tr>
+<td title='herokuapp.milestorefour.pagestest.DisappearingElementsTest.verifyDisappearingElementsPageUrl()'><b>verifyDisappearingElementsPageUrl</b><br>Test class: herokuapp.milestorefour.pagestest.DisappearingElementsTest</td>
+<td></td>
+<td>0</td>
+<td>herokuapp.milestorefour.pagestest.DisappearingElementsTest@7ee8290b</td></tr>
+<tr>
+<td title='herokuapp.milestorefour.pagestest.AddRemoveElementsTest.verifyAddElementFunctionality()'><b>verifyAddElementFunctionality</b><br>Test class: herokuapp.milestorefour.pagestest.AddRemoveElementsTest</td>
+<td></td>
+<td>1</td>
+<td>herokuapp.milestorefour.pagestest.AddRemoveElementsTest@291caca8</td></tr>
+<tr>
+<td title='herokuapp.milestorefour.pagestest.DisappearingElementsTest.verifyGalleryMayDisappear()'><b>verifyGalleryMayDisappear</b><br>Test class: herokuapp.milestorefour.pagestest.DisappearingElementsTest</td>
+<td></td>
+<td>0</td>
+<td>herokuapp.milestorefour.pagestest.DisappearingElementsTest@7ee8290b</td></tr>
+<tr>
+<td title='herokuapp.milestorefour.pagestest.BrokenImagesTest.verifyBrokenImagesPageTitle()'><b>verifyBrokenImagesPageTitle</b><br>Test class: herokuapp.milestorefour.pagestest.BrokenImagesTest</td>
+<td></td>
+<td>3</td>
+<td>herokuapp.milestorefour.pagestest.BrokenImagesTest@5b94b04d</td></tr>
+<tr>
+<td title='herokuapp.milestorefour.pagestest.DisappearingElementsTest.verifyDisappearingElementsPageTitle()'><b>verifyDisappearingElementsPageTitle</b><br>Test class: herokuapp.milestorefour.pagestest.DisappearingElementsTest</td>
+<td></td>
+<td>0</td>
+<td>herokuapp.milestorefour.pagestest.DisappearingElementsTest@7ee8290b</td></tr>
+<tr>
+<td title='herokuapp.milestorefour.pagestest.ABTestingTest.verifyABTestLink()'><b>verifyABTestLink</b><br>Test class: herokuapp.milestorefour.pagestest.ABTestingTest</td>
+<td></td>
+<td>0</td>
+<td>herokuapp.milestorefour.pagestest.ABTestingTest@75db5df9</td></tr>
+<tr>
+<td title='herokuapp.milestorefour.pagestest.AddRemoveElementsTest.verifyAddRemovePageTitle()'><b>verifyAddRemovePageTitle</b><br>Test class: herokuapp.milestorefour.pagestest.AddRemoveElementsTest</td>
+<td></td>
+<td>0</td>
+<td>herokuapp.milestorefour.pagestest.AddRemoveElementsTest@291caca8</td></tr>
+<tr>
+<td title='herokuapp.milestorefour.pagestest.BrokenImagesTest.verifyBrokenImagesPageUrl()'><b>verifyBrokenImagesPageUrl</b><br>Test class: herokuapp.milestorefour.pagestest.BrokenImagesTest</td>
+<td></td>
+<td>0</td>
+<td>herokuapp.milestorefour.pagestest.BrokenImagesTest@5b94b04d</td></tr>
+<tr>
+<td title='herokuapp.milestorefour.pagestest.ChallengingDOMTest.verifyButtonsClickable()'><b>verifyButtonsClickable</b><br>Test class: herokuapp.milestorefour.pagestest.ChallengingDOMTest</td>
+<td></td>
+<td>3</td>
+<td>herokuapp.milestorefour.pagestest.ChallengingDOMTest@8c3b9d</td></tr>
+<tr>
+<td title='herokuapp.milestorefour.pagestest.AddRemoveElementsTest.verifyAddRemovePageUrl()'><b>verifyAddRemovePageUrl</b><br>Test class: herokuapp.milestorefour.pagestest.AddRemoveElementsTest</td>
+<td></td>
+<td>0</td>
+<td>herokuapp.milestorefour.pagestest.AddRemoveElementsTest@291caca8</td></tr>
+<tr>
+<td title='herokuapp.milestorefour.pagestest.ContextMenuTest.verifyContextMenuPageUrl()'><b>verifyContextMenuPageUrl</b><br>Test class: herokuapp.milestorefour.pagestest.ContextMenuTest</td>
+<td></td>
+<td>1</td>
+<td>herokuapp.milestorefour.pagestest.ContextMenuTest@1f59a598</td></tr>
+<tr>
+<td title='herokuapp.milestorefour.pagestest.CheckboxesTest.verifyCheckboxCount()'><b>verifyCheckboxCount</b><br>Test class: herokuapp.milestorefour.pagestest.CheckboxesTest</td>
+<td></td>
+<td>0</td>
+<td>herokuapp.milestorefour.pagestest.CheckboxesTest@4c39bec8</td></tr>
+<tr>
+<td title='herokuapp.milestorefour.pagestest.CheckboxesTest.verifyCheckboxSelection()'><b>verifyCheckboxSelection</b><br>Test class: herokuapp.milestorefour.pagestest.CheckboxesTest</td>
+<td></td>
+<td>3</td>
+<td>herokuapp.milestorefour.pagestest.CheckboxesTest@4c39bec8</td></tr>
+<tr>
+<td title='herokuapp.milestorefour.pagestest.DragAndDropTest.verifyDragAndDropPageUrl()'><b>verifyDragAndDropPageUrl</b><br>Test class: herokuapp.milestorefour.pagestest.DragAndDropTest</td>
+<td></td>
+<td>0</td>
+<td>herokuapp.milestorefour.pagestest.DragAndDropTest@1e178745</td></tr>
+<tr>
+<td title='herokuapp.milestorefour.pagestest.BasicAuthTest.verifyBasicAuthSuccessMessage()'><b>verifyBasicAuthSuccessMessage</b><br>Test class: herokuapp.milestorefour.pagestest.BasicAuthTest</td>
+<td></td>
+<td>0</td>
+<td>herokuapp.milestorefour.pagestest.BasicAuthTest@385e9564</td></tr>
+<tr>
+<td title='herokuapp.milestorefour.pagestest.DisappearingElementsTest.verifyMenuItemsPresent()'><b>verifyMenuItemsPresent</b><br>Test class: herokuapp.milestorefour.pagestest.DisappearingElementsTest</td>
+<td></td>
+<td>4</td>
+<td>herokuapp.milestorefour.pagestest.DisappearingElementsTest@7ee8290b</td></tr>
+<tr>
+<td title='herokuapp.milestorefour.pagestest.BasicAuthTest.verifyBasicAuthPageTitle()'><b>verifyBasicAuthPageTitle</b><br>Test class: herokuapp.milestorefour.pagestest.BasicAuthTest</td>
+<td></td>
+<td>6</td>
+<td>herokuapp.milestorefour.pagestest.BasicAuthTest@385e9564</td></tr>
+<tr>
+<td title='herokuapp.milestorefour.pagestest.BrokenImagesTest.verifyImagesPresentOnPage()'><b>verifyImagesPresentOnPage</b><br>Test class: herokuapp.milestorefour.pagestest.BrokenImagesTest</td>
+<td></td>
+<td>5</td>
+<td>herokuapp.milestorefour.pagestest.BrokenImagesTest@5b94b04d</td></tr>
+<tr>
+<td title='herokuapp.milestorefour.pagestest.ABTestingTest.verifyABTestContent()'><b>verifyABTestContent</b><br>Test class: herokuapp.milestorefour.pagestest.ABTestingTest</td>
+<td></td>
+<td>0</td>
+<td>herokuapp.milestorefour.pagestest.ABTestingTest@75db5df9</td></tr>
+<tr>
+<td title='herokuapp.milestorefour.pagestest.AddRemoveElementsTest.verifyDeleteElementFunctionality()'><b>verifyDeleteElementFunctionality</b><br>Test class: herokuapp.milestorefour.pagestest.AddRemoveElementsTest</td>
+<td></td>
+<td>1</td>
+<td>herokuapp.milestorefour.pagestest.AddRemoveElementsTest@291caca8</td></tr>
+<tr>
+<td title='herokuapp.milestorefour.pagestest.ChallengingDOMTest.verifyChallengingDOMPageTitle()'><b>verifyChallengingDOMPageTitle</b><br>Test class: herokuapp.milestorefour.pagestest.ChallengingDOMTest</td>
+<td></td>
+<td>0</td>
+<td>herokuapp.milestorefour.pagestest.ChallengingDOMTest@8c3b9d</td></tr>
+<tr>
+<td title='herokuapp.milestorefour.pagestest.BasicAuthTest.verifyBasicAuthUrl()'><b>verifyBasicAuthUrl</b><br>Test class: herokuapp.milestorefour.pagestest.BasicAuthTest</td>
+<td></td>
+<td>3</td>
+<td>herokuapp.milestorefour.pagestest.BasicAuthTest@385e9564</td></tr>
+<tr>
+<td title='herokuapp.milestorefour.pagestest.DigestAuthTest.verifyDigestAuthPageUrl()'><b>verifyDigestAuthPageUrl</b><br>Test class: herokuapp.milestorefour.pagestest.DigestAuthTest</td>
+<td></td>
+<td>0</td>
+<td>herokuapp.milestorefour.pagestest.DigestAuthTest@f79e</td></tr>
+<tr>
+<td title='herokuapp.milestorefour.pagestest.DigestAuthTest.verifyDigestAuthPageTitle()'><b>verifyDigestAuthPageTitle</b><br>Test class: herokuapp.milestorefour.pagestest.DigestAuthTest</td>
+<td></td>
+<td>0</td>
+<td>herokuapp.milestorefour.pagestest.DigestAuthTest@f79e</td></tr>
+<tr>
+<td title='herokuapp.milestorefour.pagestest.DigestAuthTest.verifyDigestAuthSuccessMessage()'><b>verifyDigestAuthSuccessMessage</b><br>Test class: herokuapp.milestorefour.pagestest.DigestAuthTest</td>
+<td></td>
+<td>0</td>
+<td>herokuapp.milestorefour.pagestest.DigestAuthTest@f79e</td></tr>
+<tr>
+<td title='herokuapp.milestorefour.pagestest.BrokenImagesTest.verifyBrokenImagesCount()'><b>verifyBrokenImagesCount</b><br>Test class: herokuapp.milestorefour.pagestest.BrokenImagesTest</td>
+<td></td>
+<td>4</td>
+<td>herokuapp.milestorefour.pagestest.BrokenImagesTest@5b94b04d</td></tr>
+<tr>
+<td title='herokuapp.milestorefour.pagestest.BasicAuthTest.verifyBasicAuthContentDisplayed()'><b>verifyBasicAuthContentDisplayed</b><br>Test class: herokuapp.milestorefour.pagestest.BasicAuthTest</td>
+<td></td>
+<td>5</td>
+<td>herokuapp.milestorefour.pagestest.BasicAuthTest@385e9564</td></tr>
+<tr>
+<td title='herokuapp.milestorefour.pagestest.ContextMenuTest.verifyContextMenuPageTitle()'><b>verifyContextMenuPageTitle</b><br>Test class: herokuapp.milestorefour.pagestest.ContextMenuTest</td>
+<td></td>
+<td>3</td>
+<td>herokuapp.milestorefour.pagestest.ContextMenuTest@1f59a598</td></tr>
+<tr>
+<td title='herokuapp.milestorefour.pagestest.CheckboxesTest.verifyCheckboxesPageTitle()'><b>verifyCheckboxesPageTitle</b><br>Test class: herokuapp.milestorefour.pagestest.CheckboxesTest</td>
+<td></td>
+<td>1</td>
+<td>herokuapp.milestorefour.pagestest.CheckboxesTest@4c39bec8</td></tr>
+<tr>
+<td title='herokuapp.milestorefour.pagestest.DragAndDropTest.verifyDragAndDropFunctionality()'><b>verifyDragAndDropFunctionality</b><br>Test class: herokuapp.milestorefour.pagestest.DragAndDropTest</td>
+<td></td>
+<td>1</td>
+<td>herokuapp.milestorefour.pagestest.DragAndDropTest@1e178745</td></tr>
+<tr>
+<td title='herokuapp.milestorefour.pagestest.ABTestingTest.verifyABTestPageTitle()'><b>verifyABTestPageTitle</b><br>Test class: herokuapp.milestorefour.pagestest.ABTestingTest</td>
+<td></td>
+<td>9</td>
+<td>herokuapp.milestorefour.pagestest.ABTestingTest@75db5df9</td></tr>
+<tr>
+<td title='herokuapp.milestorefour.pagestest.ABTestingTest.verifyABTestHeader()'><b>verifyABTestHeader</b><br>Test class: herokuapp.milestorefour.pagestest.ABTestingTest</td>
+<td></td>
+<td>9</td>
+<td>herokuapp.milestorefour.pagestest.ABTestingTest@75db5df9</td></tr>
+<tr>
+<td title='herokuapp.milestorefour.pagestest.DigestAuthTest.verifyDigestAuthContentDisplayed()'><b>verifyDigestAuthContentDisplayed</b><br>Test class: herokuapp.milestorefour.pagestest.DigestAuthTest</td>
+<td></td>
+<td>1</td>
+<td>herokuapp.milestorefour.pagestest.DigestAuthTest@f79e</td></tr>
+</table><p>
+</body>
+</html>

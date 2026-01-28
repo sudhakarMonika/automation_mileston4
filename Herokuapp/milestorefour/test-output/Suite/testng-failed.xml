@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="herokuapp.milestorefour.pagestest.ABTestingTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="verifyABTestContent"/>
+          <include name="verifyABTestLink"/>
+          <include name="verifyABTestPageTitle"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="verifyABTestHeader"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- herokuapp.milestorefour.pagestest.ABTestingTest -->
+      <class name="herokuapp.milestorefour.pagestest.BrokenImagesTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="verifyBrokenImagesPageTitle"/>
+          <include name="verifyImagesPresentOnPage"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="verifyBrokenImagesPageUrl"/>
+          <include name="beforeMethod"/>
+          <include name="verifyBrokenImagesCount"/>
+        </methods>
+      </class> <!-- herokuapp.milestorefour.pagestest.BrokenImagesTest -->
+      <class name="herokuapp.milestorefour.pagestest.BasicAuthTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="verifyBasicAuthContentDisplayed"/>
+          <include name="verifyBasicAuthSuccessMessage"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="verifyBasicAuthUrl"/>
+          <include name="verifyBasicAuthPageTitle"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- herokuapp.milestorefour.pagestest.BasicAuthTest -->
+      <class name="herokuapp.milestorefour.pagestest.ChallengingDOMTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="verifyChallengingDOMPageTitle"/>
+          <include name="verifyButtonsClickable"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="verifyChallengingDOMPageUrl"/>
+          <include name="verifyTableDataPresent"/>
+        </methods>
+      </class> <!-- herokuapp.milestorefour.pagestest.ChallengingDOMTest -->
+      <class name="herokuapp.milestorefour.pagestest.AddRemoveElementsTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="verifyDeleteElementFunctionality"/>
+          <include name="verifyAddRemovePageUrl"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="verifyAddElementFunctionality"/>
+          <include name="beforeMethod"/>
+          <include name="verifyAddRemovePageTitle"/>
+        </methods>
+      </class> <!-- herokuapp.milestorefour.pagestest.AddRemoveElementsTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
