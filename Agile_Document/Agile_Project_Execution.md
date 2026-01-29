@@ -1,6 +1,6 @@
 # Agile Project Execution Document
 
-### Project Name : **Automation Test Execution Framework**
+### Project Name : Automation Test Execution Framework
 
 ### Intern : S.Monika
 
