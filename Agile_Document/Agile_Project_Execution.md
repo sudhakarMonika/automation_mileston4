@@ -1,17 +1,12 @@
 # Agile Project Execution Document
 
-## Project Name
+## Project Name : **Automation Test Execution Framework**
 
-**Automation Test Execution Framework**
+## Intern : S.Monika
 
-## Intern
-S.Monika
+## Internship Duration : 05 Dec 2025 – 28 Jan 2026 (8 Weeks)
 
-## Internship Duration
-05 Dec 2025 – 28 Jan 2026 (8 Weeks)
-
-## Methodology
-Agile – Scrum (Weekly Sprint-Based)
+## Methodology : Agile – Scrum (Weekly Sprint-Based)
 
 ---
 
